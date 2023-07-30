@@ -5,7 +5,6 @@ const menuIcon = document.querySelector('.menu-img');
 menuIcon.addEventListener('click', () => {
     menu.style.display = 'block';
 });
-
 closeMenu.addEventListener('click', () => {
     menu.style.display = 'none';
 });
